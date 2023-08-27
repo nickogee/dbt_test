@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ctp
+    dataset: chicago_taxi_trips
+    database: bigquery-public-data
+    tables:
+      - name: trips
+        identifier: taxi_trips
